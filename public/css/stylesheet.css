@@ -1,26 +1,27 @@
 :root {
-    --primary: white;
-    --secondary: #38f4be;
-    --tertiary: lightgrey;
-    --light-dark: rgba(0, 162, 255, 0.827);
-    --dark: #1c4802;
-    --border-radius: 0.3rem;
-  }
-  
-  * {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: var(--primary);
-    margin: 0;
-    padding: 0;
-    font-family: "IBM Plex Sans", sans-serif;
-    color: var(--dark);
-    line-height: 1.5;
-    font-size: 16px;
-  }
-  h1,
+  --primary: white;
+  --secondary: #38f4be;
+  --tertiary: lightgrey;
+  --light-dark: rgba(0, 162, 255, 0.827);
+  --dark: #1c4802;
+  --border-radius: 0.3rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary);
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+  color: var(--dark);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+h1,
 h2,
 h3,
 h4,
@@ -158,9 +159,9 @@ input {
 .footer a {
   display: inline-block;
   padding: 1em;
-  margin-bottom: 0.5em;
-  background-color: var(--secondary);
-  color: greenyellow;
+  margin-bottom: 40em;
+  background-color: lightblue;
+  color: black;
   border-radius: var(--border-radius);
   text-decoration: none;
 }
@@ -217,6 +218,8 @@ input {
 .text-uppercase {
   text-transform: uppercase;
 }
+
+/* FLEX CONTENT */
 .flex-row {
   display: flex;
   flex-wrap: wrap;
