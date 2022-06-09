@@ -21,6 +21,7 @@ https://glacial-wildwood-93881.herokuapp.com/
 
 ## DEPOLYED GIT HUB
 
+https://github.com/Neale2021/tech-talk
 
 ## INSTALLATIONS
 - express-handlebars
