@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { Post, Comment, User } = require("../models/");
+const { Post, Comment, User } = require("../models");
 
 
 router.get("/", (req, res) => {
@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
     .then((dbPostData) => {
       const posts = dbPostData.map((post) => post.get({ plain: true }));
 
-      res.render("all-post", { posts });
+      res.render("all-posts", { posts });
     })
     .catch((err) => {
       res.status(500).json(err);
