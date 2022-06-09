@@ -17,6 +17,7 @@ I give you Tech Talk
 
 ## DEPLOYED URL/APP ON HEROKU
 
+https://glacial-wildwood-93881.herokuapp.com/
 
 ## DEPOLYED GIT HUB
 
